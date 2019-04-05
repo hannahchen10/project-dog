@@ -2,23 +2,33 @@ body {
     font-family :Tahoma;
     background-color: RGB(225, 231, 246);
 }
+.header {
+  padding: 80px; /* some padding */
+  text-align: center; /* center the text */
+  background: #1abc9c; /* green background */
+  color: white; /* white text color */
+}
+
 
 h1 {
   text-align: center;
 }
-img {
-  height: 25%;
-  width: 25%;
-}
+
 h4 {
   text-align: center;
 }
-div {
-  padding-top: 30px;
-  padding-right: 30px;
-  padding-bottom: 30px;
-  padding-left: 80px;
+
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
 }
-.nav-item {
-  margin-right: 25%;
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
