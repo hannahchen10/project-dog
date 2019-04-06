@@ -18,33 +18,8 @@ h4 {
   text-align: center;
 }
 
-/* Container holding the image and the text */
-.container {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-
-/* Centered text */
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-{
-  box-sizing: border-box;
-}
-
 .row {
   display: flex;
-}
-
-/* Create two equal columns that sits next to each other */
-.column {
-  flex: 50%;
-  padding: 30px;
-  height: 300px; /* Should be removed. Only for demonstration */
 }
 
 .tile {
@@ -58,4 +33,9 @@ h4 {
 .info-tile {
   border: 2px solid #000000;
   background-color: #DEDEDE;
+}
+.jumbotron {
+  background-image: url("greygoundrun.webp");
+  bacground-size: cover;
+  background-position: center;
 }
