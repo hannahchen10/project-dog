@@ -12,6 +12,7 @@ body {
 
 h1 {
   text-align: center;
+  font-family: 'Shrikhand', cursive;
 }
 
 h4 {
@@ -38,4 +39,16 @@ h4 {
   background-image: url("greygoundrun.webp");
   bacground-size: cover;
   background-position: center;
+  color: white;
+}
+
+.jumbotron h1{
+  text-align: left;
+}
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+button {
+  font-family: 'Montserrat', sans-serif;
 }
